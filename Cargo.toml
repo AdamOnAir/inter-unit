@@ -4,6 +4,9 @@ version = "0.1.0"
 edition = "2021"
 description = "Convert american and other units to International System"
 license-file = "LICENSE"
+homepage = "https://github.com/FBDev64/inter-unit"
+repository = "https://github.com/FBDev64/inter-unit.git"
+readme = "README.md"
 
 # See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
 
