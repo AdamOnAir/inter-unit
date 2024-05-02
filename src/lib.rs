@@ -1,5 +1,5 @@
 pub fn fh_kelvin(fahreneit: f64) -> f64 {
-	let kelvin = (fahreneit − 32) × 5 ⁄ 9 + 273.15;
+	let kelvin = (fahreneit − 32) * 5.0 ⁄ 9.0 + 273.15;
 	kelvin
 }
 
@@ -24,11 +24,11 @@ pub fn nmile_km(nautical: f64) -> f64 {
 }
 
 pub fn pascal_bar(pascal: f64) -> f64 {
-	let bar = pascal / 100000;
+	let bar = pascal / 100000.0;
 	bar
 }
 
 pub fn liter_cubic(liter: f64) -> f64 {
-	let cubic = liter / 1000;
+	let cubic = liter / 1000.0;
 	cubic
 }
