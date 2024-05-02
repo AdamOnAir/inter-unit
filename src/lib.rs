@@ -1,5 +1,5 @@
 pub fn fh_kelvin(fahreneit: f64) -> f64 {
-	let kelvin = (fahreneit − 32.0) * 5.0 / 9.0 + 273.15;
+	let kelvin = (fahreneit - 32.0) * 5.0 / 9.0 + 273.15;
 	kelvin
 }
 
