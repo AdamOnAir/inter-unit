@@ -3,7 +3,7 @@ pub fn fh_kelvin(fahreneit: f64) -> f64 {
 	kelvin
 }
 
-pub fn fh_kelvin(celsuis: f64) -> f64 {
+pub fn celsuis_kelvin(celsuis: f64) -> f64 {
 	let kelvin = celsuis + 273.15;
 	kelvin
 }
