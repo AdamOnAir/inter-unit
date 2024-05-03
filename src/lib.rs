@@ -35,7 +35,6 @@ pub fn inch_cm(inch: f64) -> f64 {
 	cm
 }
 
-pub fn 
 pub fn nmile_km(nautical: f64) -> f64 {
 	let km = nautical * 1.852;
 	km
