@@ -4,7 +4,7 @@ pub fn cm_m(unit1) {
 } 
 
 pub fn mm_cm(unit1) {
-	let ans = unit / 10;
+	let ans = unit1 / 10;
 	println!("{}", ans)
 } 
 
