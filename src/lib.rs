@@ -2,7 +2,7 @@
 #[allow(dead_code)]
 
 pub fn cm_m(unit1: f64) {
-	let ans = unit1 / 100.0;
+	let _ans = unit1 / 100.0;
 } 
 
 pub fn mm_cm(unit1: f64) {
@@ -10,17 +10,17 @@ pub fn mm_cm(unit1: f64) {
 } 
 
 pub fn m_cm(unit1: f64) {
-	let ans = unit1 * 100.0;
+	let _ans = unit1 * 100.0;
 }
 
 pub fn cm_mm(unit1: f64) {
-	let ans = unit1 * 10.0;
+	let _ans = unit1 * 10.0;
 }
 
 pub fn mm_m(unit1: f64) {
-	let ans = unit1 * 1000.0;
+	let _ans = unit1 * 1000.0;
 }
 
 pub fn km_m(unit1: f64) {
-	let ans = unit1 * 1000.0;
+	let _ans = unit1 * 1000.0;
 }
