@@ -24,3 +24,11 @@ pub fn mm_m(unit1: f64) {
 pub fn km_m(unit1: f64) {
 	let _ans = unit1 * 1000.0;
 }
+
+pub fn m_km(unit1: f64) {
+	let ans = unit1 / 1000.0;
+}
+
+pub fn mm_km(unit1: f64) {
+	let ans = unit1 / 1000000.0;
+}
